@@ -27,9 +27,9 @@ CREATE TABLE Customers (
 CREATE TABLE Accounts (
     AccountID INT PRIMARY KEY,
     CustomerID INT,
-    AccountType NVARCHAR(20),  -- e.g., Checking, Savings, Credit
+    AccountType NVARCHAR(20),  
     Balance DECIMAL(15, 2),
-    AccountStatus NVARCHAR(20),  -- e.g., Active, Dormant, Closed
+    AccountStatus NVARCHAR(20),  
     CONSTRAINT FK_Customer FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
@@ -38,7 +38,7 @@ CREATE TABLE Transactions (
     TransactionID INT PRIMARY KEY,
     AccountID INT,
     TransactionDate DATE,
-    TransactionType NVARCHAR(20), -- e.g., Deposit, Withdrawal, Transfer, Payment
+    TransactionType NVARCHAR(20), 
     Amount DECIMAL(10, 2),
     BalanceAfter DECIMAL(10, 2),
     Description NVARCHAR(100),
@@ -49,23 +49,23 @@ CREATE TABLE CustomerFeedback (
     FeedbackID INT PRIMARY KEY,
     CustomerID INT,
     FeedbackDate DATE,
-    FeedbackCategory NVARCHAR(50), -- e.g., Service Quality, Online Banking, Customer Support, Product Satisfaction
+    FeedbackCategory NVARCHAR(50), 
     FeedbackText NVARCHAR(255),
-    Rating INT, -- Rating on a scale of 1 to 5
-    Sentiment NVARCHAR(10), -- e.g., Positive, Neutral, Negative
+    Rating INT, 
+    Sentiment NVARCHAR(10), 
     CONSTRAINT FK_CustomerFeedback FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
 CREATE TABLE Loans (
     LoanID INT PRIMARY KEY,
     CustomerID INT,
-    LoanType NVARCHAR(30), -- e.g., Personal, Mortgage, Auto, Student
+    LoanType NVARCHAR(30), 
     LoanAmount DECIMAL(12, 2),
-    InterestRate DECIMAL(4, 2), -- Interest rate as a percentage
-    LoanTerm INT, -- Loan term in months
+    InterestRate DECIMAL(4, 2), 
+    LoanTerm INT, 
     StartDate DATE,
     EndDate DATE,
-    LoanStatus NVARCHAR(15), -- e.g., Active, Closed, Defaulted
+    LoanStatus NVARCHAR(15), 
     CONSTRAINT FK_LoanCustomer FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
@@ -75,15 +75,14 @@ CREATE TABLE Credit_Card_Usage (
     TransactionDate DATE,
     Merchant NVARCHAR(50),
     TransactionAmount DECIMAL(10, 2),
-    Category NVARCHAR(30), -- e.g., Groceries, Travel, Dining, Shopping, Entertainment
-    CardType NVARCHAR(20), -- e.g., Visa, MasterCard, Amex
+    Category NVARCHAR(30), 
+    CardType NVARCHAR(20), 
     CONSTRAINT FK_CreditCardCustomer FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
 
 
-
-
+-- Sample records for Customers table
 INSERT INTO Customers (CustomerID, FirstName, LastName, Age, Gender, MaritalStatus, Occupation, Income, City, State, Country) VALUES
 (1, 'Alice', 'Johnson', 28, 'Female', 'Single', 'Teacher', 55000.00, 'New York', 'NY', 'USA'),
 (2, 'Bob', 'Smith', 34, 'Male', 'Married', 'Engineer', 85000.00, 'San Francisco', 'CA', 'USA'),
@@ -137,7 +136,7 @@ INSERT INTO Customers (CustomerID, FirstName, LastName, Age, Gender, MaritalStat
 (50, 'Yvonne', 'Sanders', 34, 'Female', 'Single', 'Project Manager', 91000.00, 'Atlanta', 'GA', 'USA');
 
 
-
+-- Sample records for Accounts table
 INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance, AccountStatus) VALUES
 (101, 1, 'Savings', 12000.00, 'Active'),
 (102, 1, 'Checking', 3000.00, 'Active'),
