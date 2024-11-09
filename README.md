@@ -111,8 +111,8 @@ The bank can strategically target these segmented customer groups with tailored 
 
 ---
 
-## Links to Navigate SQL Queries:
+## Links to Navigate SQL Queries
 
-- [Sql Queries to Insert tables in the database](Bank Customer Database Tables_MySQL.sql)
-- [SQL Queries for Segementation](SQL queries for segmentation MySQL.sql)
+- [SQL Queries to Insert Tables in the Database](Bank Customer Database Tables_MySQL.sql)
+- [SQL Queries for Segmentation](SQL queries for segmentation MySQL.sql)
 - [Key Insights](Key Patterns, Trends, and Insights Bank Customer Segmentation Project.md)
