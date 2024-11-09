@@ -119,7 +119,7 @@ As part of the Bank Customer Segmentation analysis project, I segmented customer
 
 ## **Conclusion and Recommendations**
 
-Based on our analysis, we observed key trends that can help inform marketing and customer retention strategies:
+Based on our analysis, I observed key trends that can help inform marketing and customer retention strategies:
 1. **Younger professionals** with moderate income could benefit from products that cater to their growth (e.g., credit building or savings tools).
 2. **Medium and high spenders** are valuable customers for cross-selling **premium credit cards** and **exclusive financial products**.
 3. Customers with **long-term, high-value loans** are a highly profitable segment and should be nurtured with **loyalty programs** and **exclusive offers**.
