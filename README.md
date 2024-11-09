@@ -113,6 +113,6 @@ The bank can strategically target these segmented customer groups with tailored 
 
 ## Links to Further Insights:
 
-- [Customer Demographic Segmentation Insights](#customer-demographic-segmentation-insights)
-- [Behavioral Segmentation Insights](#behavioral-segmentation-insights)
-- [Financial Engagement Segmentation Insights](#financial-engagement-segmentation-insights)
+- [Sql Queries to Insert tables in the database](#Bank Customer Database Tables_MySQL.sql)
+- [SQL Queries for Segementation](#SQL queries for segmentation MySQL.sql)
+- [Key Insights](#Key Patterns, Trends, and Insights Bank Customer Segmentation Project.md)
