@@ -1,7 +1,7 @@
 # Key Patterns, Trends, and Insights: Bank Customer Segmentation Project
 
 ## Introduction:
-As part of the Bank Customer Segmentation analysis project, we segmented customers based on three key aspects: **Demographic Segmentation**, **Behavioral Segmentation**, and **Financial Engagement Segmentation**. The purpose of this analysis was to understand customer behavior, spending habits, and financial engagement to help the bank better target marketing, improve customer experience, and tailor offerings like loans and credit card services.
+As part of the Bank Customer Segmentation analysis project, I segmented customers based on three key aspects: **Demographic Segmentation**, **Behavioral Segmentation**, and **Financial Engagement Segmentation**. The purpose of this analysis was to understand customer behavior, spending habits, and financial engagement to help the bank better target marketing, improve customer experience, and tailor offerings like loans and credit card services.
 
 ---
 
