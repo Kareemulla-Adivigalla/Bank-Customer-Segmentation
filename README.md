@@ -113,6 +113,6 @@ The bank can strategically target these segmented customer groups with tailored 
 
 ## Links to Navigate SQL Queries
 
-- [SQL Queries to Insert Tables_MySQL.sql](https://github.com/Kareemulla-Adivigalla/Bank-Customer-Segmentation/commit/7014f40d0787719bd83077a2f89d4d2e7531afcf)
+- https://github.com/Kareemulla-Adivigalla/Bank-Customer-Segmentation/blob/main/Key%20Patterns%2C%20Trends%2C%20and%20Insights%20Bank%20Customer%20Segmentation%20Project.md
 - [SQL Queries for Segmentation](https://github.com/Kareemulla-Adivigalla/Bank-Customer-Segmentation/blob/main/SQL%20queries%20for%20segmentation%20MySQL.sql)
 - [Key Patterns, Trends, and Insights Bank Customer Segmentation Project.md](https://github.com/Kareemulla-Adivigalla/Bank-Customer-Segmentation/commit/f22fbfc7bc1041cb895253d555156231ea310e03)
